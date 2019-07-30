@@ -1,0 +1,17 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: test
+  datasource:
+    username: root
+    password: xym123
+    url: jdbc:mysql://localhost:3306/questionbank?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: xym123
+
+
